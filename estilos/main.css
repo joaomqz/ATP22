@@ -1,0 +1,210 @@
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color:#575f63 ;
+    
+}
+
+ul{
+    padding: 0px!important;
+}
+
+main, .content {
+    margin: 0 auto;
+    width: 980px;
+}
+
+h1{
+    font-size:60px;
+    text-align: center!important;
+    padding-left: 100px;
+    background-color: #333;
+    color: #ffffff;
+    padding-top: 35px;
+}
+
+h2{
+    font-size: 50px;
+    text-align: center;
+    color: #ffffff;
+    padding-right: 900px;
+}
+
+h3{
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center!important;
+    padding-left: 770px;
+    padding-top: 15px;
+}
+
+
+.head{
+    background-color: #333;
+    width: 100%;
+    height: 150px;
+    margin: 0 auto;
+   
+}
+
+.logo {
+    width:500px;
+    padding:10px ;
+    float: right;
+}
+.menu-urls{
+    color: #ffffff;
+    background-color: #333;
+    width: 100%;
+    border-bottom: 3px solid #888888;
+}
+
+.menu{
+    color: #ffffff;
+    width:980px;
+    height:80px;
+    margin:0 auto;
+ 
+}
+
+.menu ul{
+    margin-top: 0px;
+}
+
+.menu ul li{
+    padding: 20px;
+    display: inline-block;
+    margin-left:175px;
+    
+ 
+}
+
+.menu ul li a:hover{
+    color: red;
+    border-bottom: 2px solid red;
+ }
+
+.menu ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.img-menu ul li{
+    padding-left:10px;
+    float: top;
+    margin: 0 auto;
+      
+}
+
+.titulo{
+    text-align: center;
+    font-size: 40px;
+}
+ 
+.resumo img{
+    display: inline-block;
+    float: left;
+    padding: 20px;
+     
+}
+
+.resumo b {
+    color: #ffffff;
+    padding-left:30px ;
+    font-size: 30px;
+    float: left;
+    width: 30%;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.resumo b a{
+    color:  #ffffff;
+    font-size: 30px;
+}
+
+.resumo b a:hover{
+    color: red;
+    border-bottom: 2px solid red;
+}
+ 
+.footer {
+    display: flex;
+    background-color: #333;
+    width: 100%;
+    float: bottom;
+    height: 90px; 
+    margin-top: 20px;
+}
+
+.links ul li{
+    text-decoration:none;
+    float: right;
+    display: inline-block;
+    padding: 20px;
+
+}
+
+form{
+    padding-top: 40px;
+    display:flex;
+    flex-direction: column;
+    gap: 7px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+label{
+    font-weight: bold;
+    color: #ffffff;
+    font-size:20px ;
+    margin-bottom: 5px;
+}
+
+input, select, textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+
+button{
+    width:500px;
+    padding:10px;
+    border: none;
+    border-radius:5px;
+    cursor:pointer;
+    height: 60px;
+    box-sizing: content-box;  
+    padding: center;
+    
+}
+
+.buttonred{
+    display: inline-block;
+    border-radius:5px;
+    cursor:pointer;
+    height: 60px;  
+    background-color: #c23434;
+    color: white;
+    float: right;
+
+}
+
+
+.divss a {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
