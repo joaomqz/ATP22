@@ -73,10 +73,25 @@ function receberForm(form){
 }
 
 function excluir() {
-    cart = [];
-    while (cartItemsElement.firstChild) {
-        cartItemsElement.removeChild(cartItemsElement.firstChild);
+    if (confirm("Tem certeza que deseja excluir todos os seus pedidos?")) {
+        fetch('delete_items.php', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.status === 'success') {
+                alert(data.message);
+                location.reload(); // Recarregar a página para atualizar a lista de pedidos
+            } else {
+                alert(data.message);
+            }
+        })
+        .catch(error => {
+            console.error('Erro:', error);
+        });
     }
-    updateCartTotalCost();
-    alert("Carrinho esvaziado com sucesso!");
 }
+
