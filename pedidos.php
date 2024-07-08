@@ -74,20 +74,20 @@ if (isset($_SESSION['idUser']) && !empty($_SESSION['idUser'])):
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    <a class="nav-link active" aria-current="page" href="index.php">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Cadastro</a>
+                    <a class="nav-link" href="criarCadastro.php">Cadastro</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Customização</a>
+                    <a class="nav-link" href="customizacao.php">Customização</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="pedidos.php">Meus Pedidos</a>
                 </li>
             </ul>
             <div class="form2.0">
-                <label class="mr-"><?php echo $_SESSION["nome"]; ?></label>
+                <label class="mr-"><?php echo $_SESSION["idUser"]; ?></label>
                 <a href="logout.php">SAIR</a>
             </div>
         </div>
@@ -121,7 +121,7 @@ if (isset($_SESSION['idUser']) && !empty($_SESSION['idUser'])):
    
     <div>
 
-    <button type="button" class="buttonred" onclick="excluir()">Excluir</button>
+    <button type="button" class="buttonred" onclick="excluir()">Cancelar Pedido</button>
 
     </div>
 </main>

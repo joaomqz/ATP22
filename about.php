@@ -34,10 +34,10 @@
         <div class="menu">
             <ul>
                 <li>
-                    <a href="index.html">Home</a>
+                    <a href="index.php">Home</a>
                 </li>
                 <li>
-                    <a href="about.html">Sobre</a>
+                    <a href="about.php">Sobre</a>
                 </li>
                 <li>
                     <a href="criarCadastro.php">Login</a>
@@ -50,8 +50,8 @@
 
         <div class="resumo">
             <b>Este site foi criado como um projeto de aprendizado para a minha graduação em análise e desenvolvimento de sistemas.
-             Escolhi essa temática de oficina de customização porque é um assunto que me interessa,  
-             desenvolvi esse site foi desenvolvido individualmente usando os conhecimento passados através da matéria fundamentos da programação web e de um curso que fiz antes de ingressar na faculdade. 
+             Escolhemos essa temática de oficina de customização porque é um assunto que nos interessa,  
+            esse site foi desenvolvido em equipe usando os conhecimento passados através da matéria fundamentos da programação web.
             </b>
                 
         </div>

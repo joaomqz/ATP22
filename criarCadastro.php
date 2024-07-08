@@ -27,13 +27,13 @@
         <div class="menu">
             <ul>
                 <li>
-                    <a href="index.html">Home</a>
+                    <a href="index.php">Home</a>
                 </li>
                 <li>
-                    <a href="about.html">Sobre</a>
+                    <a href="about.php">Sobre</a>
                 </li>
                 <li>
-                    <a href="form.html">Login</a>
+                    <a href="form.php">Login</a>
                 </li>
             </ul>
         </div>
